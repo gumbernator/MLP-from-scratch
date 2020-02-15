@@ -24,6 +24,6 @@ In terms of accuracy, almost the same results across the board.
 
 Final results are shown below:
 <p align="center">
-  <img src="gumbernator_mlp_result.PNG" width=500 height=205>
-  <img src="keras_mlp_result.PNG" width=500 height=352>
+  <img src="gumbernator_mlp_result.PNG" width=947 height=389>
+  <img src="keras_mlp_result.PNG" width=1247 height=875>
 </p>
