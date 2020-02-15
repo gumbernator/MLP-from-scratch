@@ -20,7 +20,7 @@ The real purpose of this project was to come up with a new optimizer or loss fun
 not fulfilled.
 
 This project is highly inspired by Keras, it is not as fast but not terribly slow either considering it's only using Numpy.
-In terms of accuracy, almost the same results across the board.
+In terms of accuracy, almost the same results across the board. (Check out test_gumbernator.py, test_keras.py)
 
 **Final results are shown below: (MNIST digits, batch_size = 64, epochs = 10)**
 
