@@ -7,10 +7,10 @@ highly inspired by keras,
 Adadelta optimizer is currently broken!!!
 """
 
-from gumbernator.nn import MLP
-from gumbernator.losses import mse, mae, cross_entropy
-from gumbernator.activations import sigmoid, tanh, relu, leaky_relu, softmax
-from gumbernator.optimizers import SGD, Adagrad, Adadelta, RMSprop
+from mlp.nn import MLP
+from mlp.losses import mse, mae, cross_entropy
+from mlp.activations import sigmoid, tanh, relu, leaky_relu, softmax
+from mlp.optimizers import SGD, Adagrad, Adadelta, RMSprop
 
 from keras.datasets import mnist
 from keras.utils import to_categorical
