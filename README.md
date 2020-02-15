@@ -8,11 +8,11 @@ I did not use Tensorflow or any other deep learning libraries, since it will def
 from scratch.
 
 Features:
-* Activations: Sigmoid, Tanh, ReLU, LeakyReLU, Softmax
-* Losses: MSE(Mean Squared Error), MAE(Mean Absolute Error), categorical_ross_entropy
-* Batch learning, Accuracy evaluation
-* Selective data_type ex: ('float16', 'float32', ...)
-* Optimizers: SGD, Adagrad, *Adadelta, RMSprop
+* **Activations**: Sigmoid, Tanh, ReLU, LeakyReLU, Softmax
+* **Losses**: MSE(Mean Squared Error), MAE(Mean Absolute Error), categorical_ross_entropy
+* **Batch learning**, **Accuracy evaluation**
+* **Selective data_type** ex: ('float16', 'float32', ...)
+* **Optimizers**: SGD, Adagrad, *Adadelta, RMSprop
 
 (*) - Currently broken
 
@@ -22,8 +22,14 @@ not achieved.
 My implementation is not as fast as Keras (duh), but it is not terribly slow either considering it's only using Numpy.
 In terms of accuracy, almost the same results across the board.
 
-Final results are shown below:
+**Final results are shown below: (MNIST digits, batch_size = 64, epochs = 10)**
+
+**My implementation's result:**
 <p align="center">
   <img src="gumbernator_mlp_result.PNG" width=947 height=389>
+</p>
+
+**Keras's result:**
+<p align="center">
   <img src="keras_mlp_result.png" width=908 height=468>
 </p>
