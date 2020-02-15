@@ -17,7 +17,7 @@ Features:
 (*) - Currently broken
 
 The real purpose of this project was to come up with a new optimizer or loss function. Unfortunately, that goal is
-not achieved.
+not fulfilled.
 
 My implementation is not as fast as Keras (duh), but it is not terribly slow either considering it's only using Numpy.
 In terms of accuracy, almost the same results across the board.
