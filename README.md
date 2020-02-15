@@ -9,7 +9,7 @@ from scratch.
 
 Features:
 * **Activations**: Sigmoid, Tanh, ReLU, LeakyReLU, Softmax
-* **Losses**: MSE(Mean Squared Error), MAE(Mean Absolute Error), categorical_ross_entropy
+* **Losses**: MSE(Mean Squared Error), MAE(Mean Absolute Error), categorical_cross_entropy
 * **Batch learning**, **Accuracy evaluation**
 * **Selective data_type** ex: ('float16', 'float32', ...)
 * **Optimizers**: SGD, Adagrad, *Adadelta, RMSprop
