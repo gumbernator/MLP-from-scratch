@@ -24,12 +24,12 @@ In terms of accuracy, almost the same results across the board. (Check out test_
 
 **Final results are shown below: (MNIST digits, batch_size = 64, epochs = 10)**
 
-**My implementation's result:**
+**My implementation's result: test_gumbernator.py**
 <p align="center">
   <img src="gumbernator_mlp_result.PNG" width=947 height=389>
 </p>
 
-**Keras's result:**
+**Keras's result: test_keras.py**
 <p align="center">
   <img src="keras_mlp_result.png" width=908 height=468>
 </p>
