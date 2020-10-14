@@ -45,5 +45,5 @@ model.compile(optimizer = RMSprop(lr = 0.01), loss = cross_entropy, data_type = 
 model.fit(x_train, y_train, batch_size = batch_size, epochs = epochs, verbose = 1)
 
 # evaluating
-accuray = model.evaluate_accuracy(x_test, y_test)
-print ('categorical accuray:', accuray)
+accuracy = model.evaluate_accuracy(x_test, y_test)
+print ('categorical accuracy:', accuracy)
