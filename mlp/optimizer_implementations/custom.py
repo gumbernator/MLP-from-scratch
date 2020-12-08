@@ -2,10 +2,6 @@ import numpy as np
 from copy import deepcopy
 from .optimizer import Optimizer
 
-##########
-# FAILED #
-##########
-
 # Inherits "Optimizer" for general methods and members
 class StopAndTurn(Optimizer):
 
